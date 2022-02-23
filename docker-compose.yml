@@ -27,3 +27,5 @@ services:
       - POSTGRES_DB=app
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=orson123
+    ports:
+      - "7000:5432"
